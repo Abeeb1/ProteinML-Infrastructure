@@ -10,7 +10,7 @@
 
 set -euo pipefail
 
-cd /cluster/VAST/zoux-lab/abeeb/ProteinML-Infrastructure
+cd "${SLURM_SUBMIT_DIR}"
 
 echo "=== HPC Container Job ==="
 echo "Job ID: ${SLURM_JOB_ID}"
