@@ -31,3 +31,6 @@ jobs:
 
       - name: Test Slurm metrics parser
         run: python -m unittest -v test_metrics.py
+
+      - name: Check monitoring script syntax
+        run: bash -n submit_and_monitor.sh
