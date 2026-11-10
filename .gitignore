@@ -3,3 +3,6 @@
 *.err
 __pycache__/
 *.pyc
+
+# Generated Slurm metrics
+metrics/*.json

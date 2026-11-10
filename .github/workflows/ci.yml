@@ -28,3 +28,6 @@ jobs:
 
       - name: Run validation
         run: python validate.py
+
+      - name: Test Slurm metrics parser
+        run: python -m unittest -v test_metrics.py
