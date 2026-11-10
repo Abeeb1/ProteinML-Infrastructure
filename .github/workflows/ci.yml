@@ -26,5 +26,5 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install numpy==1.26.4
 
-      - name: Run validation
-        run: python validate.py
+      - name: Test Slurm metrics parser
+        run: python -m unittest -v test_metrics.py
